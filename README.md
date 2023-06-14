@@ -12,7 +12,7 @@ The technologies used in this application are:
 6. Swagger 3 (OpenAPI)
 7. Pagination
 
-Spring Boot Actuator Endpoints exposed are (Actuator endpoint is pointed to different port .i.e. 6067 than application port .i.e. 6066:
+Spring Boot Actuator Endpoints exposed are (Actuator endpoint is pointed to different port .i.e. 6067 than application port .i.e. 6066):
 1. Health : http://localhost:6067/actuator/health
 2. Metrics: http://localhost:6067/actuator/metrics
 3. Env: http://localhost:6067/actuator/env
@@ -37,7 +37,7 @@ The REST endpoint exposed by this application are:
 
 Swagger 3 (OpenAPI) URI : http://localhost:6066/swagger-ui/index.html
 
-Sample Post REST API payload:
+Sample Post Person REST API payload:
 
 {
 
