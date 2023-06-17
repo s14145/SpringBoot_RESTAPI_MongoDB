@@ -26,7 +26,7 @@ Spring Boot Actuator Endpoints exposed are (Actuator endpoint is pointed to diff
 5. Threaddump: http://localhost:6067/actuator/threaddump
 6. Heapdump: http://localhost:6067/actuator/headdump
 
-The REST endpoint exposed by this application are:
+The REST endpoints exposed by this application are:
 1. POST Person : http://localhost:6066/api/v1/persons
 2. GET Person Start With FirstName : http://localhost:6066/api/v1/persons (Provide request param in body using "form-data" and key as firstName and value as {firstName})
 3. GET Person By Age : http://localhost:6066/api/v1/persons/ages (Provide request param in body using "form-data" and 1. key as minAge and value as {minAge} and 2. key as maxAge and value as {maxAge})
@@ -43,11 +43,11 @@ The REST endpoint exposed by this application are:
 
 Swagger 3 (OpenAPI) URI : http://localhost:6066/swagger-ui/index.html
 
-Sample Post Person REST API payload:
+Sample Post Person REST API Request payload:
 
 {
 
-    "personId": "3",
+    "personId": "1",
     "firstName": "Zubair",
     "lastName": "Khan",
     "age": 18,
