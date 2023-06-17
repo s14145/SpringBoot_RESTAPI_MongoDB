@@ -1,3 +1,9 @@
+![Generic badge](https://img.shields.io/badge/completion-80%25-green)
+![GitHub repo size](https://img.shields.io/github/repo-size/s14145/SpringBoot_RESTAPI_MongoDB)
+![GitHub last commit](https://img.shields.io/github/last-commit/s14145/SpringBoot_RESTAPI_MongoDB)
+![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/s14145/SpringBoot_RESTAPI_MongoDB)
+
+
 # Spring Boot REST API Using MongoDB
 
 This application starts on port 6066.
